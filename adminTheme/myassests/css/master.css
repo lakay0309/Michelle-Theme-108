@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+/* Header and logo */
+#logo {
+  height: 100px;
+  width: 200px;
+}
+
+header {
+  background: linear-gradient(to bottom, #000000 0%,#7c51a1 25%,#b59930 50%,#f287b7 75%,#ffffff 100%);
+  color: white;
+  overflow: auto;
+  padding: 10px;
+}
+
+.header_left {
+  width: 40%;
+  float: left;
+  padding-top: 10px;
+}
+
+/* designing navigation */
+nav {
+  position:sticky;
+  top:0;
+  background-color: white;
+  border-top:5px solid black;
+  border-bottom:5px solid #7c51a1;
+  padding:2px;
+}
+
+nav div {
+  max-width: 80%;
+  margin:auto;
+  text-align: center;
+}
+
+.navbar {
+  list-style-type: none;
+}
+
+.navbar li {
+  background-color: white;
+  padding: 5px;
+  display: inline-block;
+}
+
+.navbar a {
+  color: #b59930;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.navbar li:hover a {
+  color: hotpink;
+}
+
+.active {
+  display: none;
+}
+
+/* body of the page */
+main {
+  /* height: 1000px; */
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.section_content {
+background-color: white;
+width: 50%;
+text-align: center;
+margin: 0 auto;
+border-radius: 5px;
+padding: 5px;
+box-shadow: 2px 2px 2px 0px grey;
+}
+
+.section_img {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+.subheader {
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer {
+  background-color: #7c51a1;
+  color: white;
+  overflow: auto;
+  padding: 15px;
+}
+
+.footer_left {
+  width: 30%;
+  float: left;
+}
+
+.footer_right {
+  width: 60%;
+  float: right;
+  border-left: 2px solid white;
+  padding-left: 5px;
+}
+
+.footer_right h5 {
+  font-family: cursive;
+}
+
+/* Portfolio */
+.grid_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-column-gap: 10px; */
+  grid-gap: 10px;
+  padding: 10px;
+  align-items: center;
+}
+
+.grid_image {
+  width: 100%;
+}
+/*
+#two_col {
+  grid-column-start: 1;
+  grid-column-end: 1;
+} */
+
+/*Form styling */
+input[type=text] {
+  border:none;
+  border: 1px solid black;
+  border-radius: 2px;
+  }
+
+
+input[type=submit], input[type=reset] {
+  color: #b59930;
+  padding: 10px;
+  background-color:white;
+  border:2px solid #7c51a1;
+}
+
+label {
+  font-style: italic;
+  font-weight: bold;
+}
+
+form {
+  padding:10px;
+  border: 5px solid rgb(244, 95, 197);
+  color: black;
+  border-radius: 2px;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+option {
+  padding:5px;
+}
+
+textarea {
+  border: none;
+  border: 5px solid #7c51a1;
+  border-radius: 2px;
+  width: 200px;
+}
+
+#form_title {
+  margin-bottom: 15px;
+  text-align: center;
+}
